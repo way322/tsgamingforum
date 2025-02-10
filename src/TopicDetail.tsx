@@ -53,8 +53,8 @@ export const TopicDetail: React.FC = () => {
     }
   });
 
-  // Проверяем, что id определен, прежде чем использовать его
-  const topicIndex = id ? parseInt(id) : -1; // Если id не определен, используем -1
+
+  const topicIndex = id ? parseInt(id) : -1; 
   const topic: Topic | undefined = topics[topicIndex];
 
   if (!topic) {

@@ -9,7 +9,7 @@ import { Dotabugs } from './dota2/dotabugs';
 import { Dotaskins } from './dota2/dotaskins';
 import { EditTopicPage } from './EditTopicPage';
 import { Dotatournaments } from './dota2/dotatournaments';
-import { ErrorPage404 } from './ErrorPage404'; // Импортируем страницу ошибки
+import { ErrorPage404 } from './ErrorPage404'; 
 import { DotaMeta } from './dota2/meta';
 import { DotaTeamFinder } from './dota2/team-finder';
 import { DotaUpdates } from './dota2/updates';

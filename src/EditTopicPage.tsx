@@ -83,13 +83,13 @@ export const EditTopicPage: React.FC = () => {
 
   const handleUpdate = () => {
     const updatedTopic = {
-      id: topic.id, // Используйте id из найденной темы
+      id: topic.id, 
       nickname,
-      topic: topicTitle, // Используйте `topic`, если это поле используется в вашем состоянии
+      topic: topicTitle, 
       description,
     };
   
-    const topicId = topic.id; // Используйте id из найденной темы
+    const topicId = topic.id; 
 
     switch (type) {
       case 'builds':

@@ -10,14 +10,12 @@ interface Topic {
   id?: string;
   topic: string;
   nickname: string;
-  type?: string; // Добавлено для типизации
-  game?: string; // Добавлено для типизации
+  type?: string; 
+  game?: string; 
 }
 
 export const App: React.FC = () => {
   const [] = useState<number>(0);
-
-  // Уточните тип состояния, если возможно
   const buildsTopics = useSelector((state: any) => state.builds.topics);
   const customsTopics = useSelector((state: any) => state.customs.topics);
   const bugsTopics = useSelector((state: any) => state.bugs.topics);

@@ -35,6 +35,6 @@ const csKinsSlice = createSlice({
   },
 });
 
-// Export actions and reducer
+
 export const { addCsKinTopic, updateCsKinTopic } = csKinsSlice.actions;
 export default csKinsSlice.reducer;

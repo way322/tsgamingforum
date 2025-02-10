@@ -17,7 +17,7 @@ import csKinsReducer from './features/csKinsSlice';
 import csTeamFinderReducer from './features/csTeamFinderSlice';
 import csTournamentsReducer from './features/csTournamentsSlice';
 
-// Define the root state type
+
 export interface RootState {
   builds: ReturnType<typeof buildsReducer>;
   customs: ReturnType<typeof customsReducer>;
@@ -37,7 +37,7 @@ export interface RootState {
   csTournaments: ReturnType<typeof csTournamentsReducer>;
 }
 
-// Create the store
+
 const store = configureStore({
   reducer: {
     builds: buildsReducer,
@@ -59,5 +59,5 @@ const store = configureStore({
   },
 });
 
-// Export the store and the RootState type
+
 export default store;
